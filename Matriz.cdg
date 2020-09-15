@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Matriz">
+  <ClassDiagramComponents>
+    <Class name="Matriz" package="tp6.matriz" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="matriz" type="int[][]" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="armar" returnType="int[][]" visibility="public">
+          <Argument type="int[][]" name="mat"/>
+        </Method>
+        <Method name="visualizarPares" returnType="void" visibility="public">
+          <Argument type="int[][]" name="mat"/>
+        </Method>
+        <Method name="visualizar" returnType="void" visibility="public">
+          <Argument type="int[][]" name="mat"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
